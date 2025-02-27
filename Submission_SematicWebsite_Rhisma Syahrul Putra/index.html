@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choiyoungdok Portfolio</title>
+
+    <!-- Icon Tab -->
+    <link rel="icon" type="image/png" href="assets/IconTab.png" />
+
+    <!-- CSS Import -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav>
+        <div class="nav-container">
+          <div class="logo">
+            <img src="assets/ChoiyoungdokLogo.svg" alt="Logo" />
+            <h2>Choiyoungdok</h2>
+          </div>
+
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+
+          <div class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <div id="content">
+        <!-- About Section -->
+        <article id="about">
+          <h3>About Me</h3>
+          <div class="about-article">
+            <p>
+              Halo semuanya! Perkenalkan, saya Rhismna Syahrul Putra, seorang
+              mahasiswa tahun ke-3 di Universitas Pendidikan Indonesia, dengan
+              program studi Pendidikan Ilmu Komputer. Saya senang mengeksplorasi
+              teknologi terbaru dalam pengembangan aplikasi, baik untuk web
+              maupun mobile. Dengan semangat belajar yang tinggi, saya terus
+              mengasah keterampilan dalam frontend dan backend development. Saya
+              memiliki minat besar dalam dunia teknologi, khususnya dalam
+              pengembangan perangkat lunak, dan desain antarmuka pengguna. Saat
+              ini, saya aktif dalam berbagai proyek yang berfokus pada
+              pengembangan aplikasi berbasis web. Saya percaya bahwa dengan
+              kerja keras dan konsistensi, saya bisa menjadi developer yang
+              andal dan memberikan kontribusi dalam dunia teknologi. 🚀
+            </p>
+          </div>
+        </article>
+
+        <!-- Projects Section -->
+        <article id="projects">
+          <h3>Projects</h3>
+          <div class="project-cards">
+            <!-- Project 1 -->
+            <a
+              href="https://github.com/RhismaSyahrulPutra/uas-promnet-kom3a-2207225"
+              target="_blank"
+              class="project-card"
+            >
+              <img src="assets/ProjectManagement.jpg" alt="Project 1" />
+              <div class="project-info">
+                <h4>Invego</h4>
+                <p>Sistem Inventaris Golang</p>
+              </div>
+            </a>
+
+            <!-- Project 2 -->
+            <a
+              href="https://github.com/RhismaSyahrulPutra/uas-mobile-learning-drag-nlearn"
+              target="_blank"
+              class="project-card"
+            >
+              <img src="assets/ProjectManagement.jpg" alt="Project 2" />
+              <div class="project-info">
+                <h4>Drag nLearn</h4>
+                <p>Sistem Pembelajaran Mobile React Native & Supabase</p>
+              </div>
+            </a>
+
+            <!-- Project 3 -->
+            <a
+              href="https://github.com/RhismaSyahrulPutra/Summer_Course_Group_6"
+              target="_blank"
+              class="project-card"
+            >
+              <img src="assets/ProjectManagement.jpg" alt="Project 3" />
+              <div class="project-info">
+                <h4>Summer Course</h4>
+                <p>Project Pembelajaran Kelompok</p>
+              </div>
+            </a>
+            <!-- Project 4 -->
+            <a
+              href="https://snack.expo.dev/@choiyoungdok/my-coffee-list"
+              target="_blank"
+              class="project-card"
+            >
+              <img src="assets/ProjectManagement.jpg" alt="Project 3" />
+              <div class="project-info">
+                <h4>My Coffee List</h4>
+                <p>Project React Native & Firebase</p>
+              </div>
+            </a>
+            <!-- Project 5 -->
+            <a
+              href="https://snack.expo.dev/@choiyoungdok/sign-up-and-sign-in-page"
+              target="_blank"
+              class="project-card"
+            >
+              <img src="assets/ProjectManagement.jpg" alt="Project 3" />
+              <div class="project-info">
+                <h4>Sign in & Sign up</h4>
+                <p>React Native & Supabase</p>
+              </div>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <!-- Sidebar / Profile -->
+      <aside>
+        <div class="profile">
+          <img
+            src="assets/rhismaSyahrulPutra_pasPhoto.jpg"
+            alt="Profile"
+            class="profile-img"
+          />
+          <h2 class="profile-name">Rhisma Syahrul Putra</h2>
+          <p class="profile-title">Junior Frontend Web & Mobile Developer</p>
+
+          <div class="social-links">
+            <a
+              href="https://github.com/RhismaSyahrulPutra"
+              class="social-icon"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/rhisma-syahrul-putra/"
+              class="social-icon"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/choiyoungdok?igsh=YXEycTNjYnJ4ZDM5"
+              class="social-icon"
+              target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.youtube.com/@Choiyoungdok"
+              class="social-icon"
+              target="_blank"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; <span id="year"></span> Choiyoungdok. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/index.js"></script>
+  </body>
+</html>

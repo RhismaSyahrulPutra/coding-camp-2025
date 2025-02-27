@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100..900&display=swap");
+
+/* ===== Root Variables ===== */
+:root {
+  /* Colors */
+  --primary-color: #212121;
+  --secondary-color: #3a3a3a;
+  --accent-color: #8a2be2;
+  --dark-color: #1a1a1a;
+  --light-color: #fff;
+
+  /* Fonts */
+  --font-heading: "Montserrat", sans-serif;
+  --font-body: "Lato", sans-serif;
+
+  /* Font Sizes */
+  --font-size-base: 16px;
+  --font-size-heading: 20px;
+  --font-size-subheading: 18px;
+  --font-size-paragraph: 16px;
+  --font-size-small: 14px;
+  --font-size-xsmall: 12px;
+
+  /* Spacing */
+  --spacing-xsmall: 4px;
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 24px;
+  --spacing-xlarge: 32px;
+
+  /* Borders */
+  --border-radius: 4px;
+  --border-color: #ad49e1;
+}
+/* ===== Global Styles ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: var(--font-body);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+/* ===== Typography ===== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+/* ===== Header ===== */
+header {
+  width: 100%;
+  position: fixed;
+  background: var(--secondary-color);
+  color: var(--light-color);
+  padding: var(--spacing-medium);
+}
+/* ===== Main Content ===== */
+main {
+  margin-top: 75px;
+  display: flex;
+  flex: 1;
+  gap: var(--spacing-medium);
+  flex-wrap: wrap;
+  padding: var(--spacing-medium);
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  gap: var(--spacing-small);
+}
